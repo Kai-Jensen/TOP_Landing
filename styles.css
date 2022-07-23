@@ -25,7 +25,6 @@ ul {
   list-style: none;
   display: flex;
   gap: 30px;
-  margin: 10px;
 }
 
 a {
@@ -56,15 +55,18 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin-right: 35px;
+  max-width: 45vw;
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
 
-button {
+.button1 {
   max-width: 100px;
   padding: 10px;
   background-color: #3882f6;
@@ -77,7 +79,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 5vh;
+  padding: 10px 5vw;
   margin-top: 15px;
 }
 
@@ -96,5 +98,66 @@ button {
 }
 
 .cardimg {
-  max-width: 325px;
+  max-width: 21vw;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  margin-top: 10px;
+  padding: 100px 10vw;
+  align-items: center;
+}
+
+h3 {
+  font-size: 36px;
+  font-style: italic;
+}
+
+h4 {
+  align-self: flex-end;
+}
+.quotecon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  margin: 20px 25vw;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 15px;
+}
+
+.button2 {
+  max-width: 100px;
+  padding: 10px;
+  background-color: #3882f6;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  color: #fff;
+  max-height: 50px;
+  align-self: center;
+}
+
+.ctaleft {
+  margin: 10px;
+}
+
+.p1 {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.p2 {
+  color: white;
+  margin: 10px;
 }
