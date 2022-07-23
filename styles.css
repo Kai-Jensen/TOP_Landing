@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-color: #444546;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  color: white;
+  flex-wrap: wrap;
+}
+.hdimg {
+  max-width: 200px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+a:hover {
+  color: lightgray;
+}
