@@ -49,6 +49,7 @@ a:hover {
 
 .introimg {
   max-width: 40vw;
+  border-radius: 10px;
 }
 
 .introcontent {
@@ -95,10 +96,27 @@ h4 {
   flex-direction: column;
   align-items: center;
   flex-shrink: 1;
+  flex-basis: 1;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: auto;
+}
+button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cardimg {
   max-width: 21vw;
+  border-radius: 10px;
 }
 
 .quote {
